@@ -93,6 +93,8 @@
     align-items: center;
     color: white;
     height: 8vh;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .menu-footer-links {
@@ -100,3 +102,14 @@
     color: white;
 }
 
+.menu-footer-left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.menu-footer-items {
+    margin: 0.5rem;
+    list-style: none;
+}
